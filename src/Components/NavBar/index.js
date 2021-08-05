@@ -1,12 +1,13 @@
 import React from 'react';
 import { Bars, Nav, NavIcon, NavLink } from './NavBarElements';
 
-function NavBar() {
+function NavBar(props) {
+  const { toggle } = props;
   return (
     <>
       <Nav>
         <NavLink to="/">Pizza</NavLink>
-        <NavIcon>
+        <NavIcon onClick={toggle}>
           <p>Menu</p>
           <Bars />
         </NavIcon>
