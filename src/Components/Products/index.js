@@ -1,21 +1,33 @@
 import { data } from 'autoprefixer';
 import React from 'react';
+import {
+  ProductButton,
+  ProductCard,
+  ProductHeading,
+  ProductImage,
+  ProductInfo,
+  ProductPrice,
+  ProductsContainer,
+  ProductsDesc,
+  ProductsWrapper,
+  ProductTitle,
+} from './ProductsElements';
 
 const Products = (props) => {
-  const { heading } = props;
+  const { heading, data } = props;
   return (
     <ProductsContainer>
-      <ProductsHeading>{heading}</ProductsHeading>
+      <ProductHeading>{heading}</ProductHeading>
       <ProductsWrapper>
         {data.map((products, index) => {
           return (
-            <ProductCard key={index}>
+            <ProductInfo key={index}>
               <ProductImage src={products.img} alt={products.alt} />
               <ProductTitle>{Products.name}</ProductTitle>
               <ProductsDesc>{products.desc}</ProductsDesc>
               <ProductPrice>{products.price}</ProductPrice>
               <ProductButton>{products.button}</ProductButton>
-            </ProductCard>
+            </ProductInfo>
           );
         })}
       </ProductsWrapper>
