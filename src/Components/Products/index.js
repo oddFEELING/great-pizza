@@ -23,7 +23,7 @@ const Products = (props) => {
           return (
             <ProductInfo key={index}>
               <ProductImage src={products.img} alt={products.alt} />
-              <ProductTitle>{Products.name}</ProductTitle>
+              <ProductTitle>{products.name}</ProductTitle>
               <ProductsDesc>{products.desc}</ProductsDesc>
               <ProductPrice>{products.price}</ProductPrice>
               <ProductButton>{products.button}</ProductButton>

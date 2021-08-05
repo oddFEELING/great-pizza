@@ -23,8 +23,8 @@ const Hero = () => {
       <HeroContent>
         <HeroItems>
           <HeroH1>Greatest Pizza Ever</HeroH1>
-          <HeroP>Ready in 60 seconds</HeroP>
-          <HeroBtn>Place order</HeroBtn>
+          <HeroP>Ready in 10 seconds</HeroP>
+          <HeroBtn>Try me</HeroBtn>
         </HeroItems>
       </HeroContent>
     </HeroContainer>

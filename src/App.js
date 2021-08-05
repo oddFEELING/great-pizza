@@ -4,7 +4,9 @@ import NavBar from './Components/NavBar';
 import { GlobalStyle } from './GlobalStyles';
 import Hero from './Components/Hero';
 import Products from './Components/Products';
-import { productData } from './Components/Products/data';
+import { productData, productDataTwo } from './Components/Products/data';
+import Feature from './Components/Feature';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -12,6 +14,10 @@ function App() {
       <GlobalStyle />
       <Hero />
       <Products heading="Choose your favourite" data={productData} />
+      <Feature />
+
+      <Products heading="Sweet treats for you" data={productDataTwo} />
+      <Footer />
     </Router>
   );
 }
