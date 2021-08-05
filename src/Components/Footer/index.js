@@ -1,5 +1,11 @@
 import React from 'react';
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import {
+  FaFacebook,
+  FaGithub,
+  FaGoogle,
+  FaInstagram,
+  FaLinkedin,
+} from 'react-icons/fa';
 import {
   FooterContainer,
   FooterWrap,
@@ -18,16 +24,32 @@ const Footer = () => {
           <SocialMediaWrap>
             <SocialLogo to="/">Pizza</SocialLogo>
             <SocialIcaons>
-              <SocialiconLink href="/" target="_blank" aria-label="Facebook">
-                <FaFacebook />
+              <SocialiconLink
+                href="https://alawodeemmanuel2@gmail.com"
+                target="alawodeemmanuel2@gmail.com"
+                aria-label="Gmail"
+              >
+                <FaGoogle />
               </SocialiconLink>
-              <SocialiconLink href="/" target="_blank" aria-label="Instagram">
+              <SocialiconLink
+                href="https://www.instagram.com/himmar_kay/"
+                target="https://www.instagram.com/himmar_kay/"
+                aria-label="Instagram"
+              >
                 <FaInstagram />
               </SocialiconLink>
-              <SocialiconLink href="/" target="_blank" aria-label="Linkedin">
+              <SocialiconLink
+                href="https://www.linkedin.com/in/alawodeemmanuel"
+                target="www.linkedin.com/in/alawodeemmanuel"
+                aria-label="Linkedin"
+              >
                 <FaLinkedin />
               </SocialiconLink>
-              <SocialiconLink href="/" target="_blank" aria-label="Github">
+              <SocialiconLink
+                href="https://github.com/oddFEELING"
+                target="https://github.com/oddFEELING"
+                aria-label="Github"
+              >
                 <FaGithub />
               </SocialiconLink>
             </SocialIcaons>
