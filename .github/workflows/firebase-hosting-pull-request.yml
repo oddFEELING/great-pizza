@@ -13,5 +13,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_GREAT_PIZZA }}'
-          projectId: great-pizza
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_GREAT_PIZZA_81554 }}'
+          projectId: great-pizza-81554
